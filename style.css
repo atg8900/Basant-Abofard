@@ -38,10 +38,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(57,48,69);
-    z-index: 100;
+    width:100%;
+    background-color:rgb(57,48,69);
+    z-index:1000;
 }
 .logo{
     width: 140px;
