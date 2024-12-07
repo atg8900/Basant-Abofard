@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basant's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0cfac7dbc3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header style="position: sticky; top: 0; background-color: rgb(57, 48, 69 );">
+    <nav>
+        <img src="Images/LOGO.PNG" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+</header>
+<div id="header">
+    <div class="container">
+      
+         <div class="header-text">
+           <p> Web Designer</p>
+           <h1>Hi,This is<span style="color:#ba1348 ;">Basant</span><br>a Front-end Developer </h1>
+           <div class="profile-card">
+          </div>
+         </div>
+    </div>
+  </div>
+
+      <!--About-->
+      <div id="About">
+        <div class="container">
+          <h1 class="sub-title">About Me</h1>   
+          <div class="About-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Skills</h2>
+              <p> I Can easily develope websites using these 3 languages: <br> HTML<br>CSS<br> JavaScript</p>
+              
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+              <h2>Experience</h2>
+              <p>I have been collaborating with marketing agencies for 2 years and helped them reaching their target.</p>
+              
+            </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+              <h2>Education</h2>
+              <p>Went to IGCSE school<br>(which helped me to be native in English)<br>Studying at Faculty of commerce BIS section Tanta University.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title"> My Work</h1> 
+      <div class="work-list">
+         <div class="work">
+          <img src="Images/WhatsApp Image 2024-12-03 at 01.35.52_d7bd1f5e.jpg"> 
+          <div class="layer">
+            <h3>Doctor Appointment website</h3>
+            <p>A web that connects you to the talented doctors around the world.</p>
+          </div>
+         </div>
+         <div class="work">
+          <img src="Images/WhatsApp Image 2024-12-03 at 01.28.01_5289db21.jpg"> 
+          <div class="layer">
+            <h3>Food Ordering Website </h3>
+            <p>A web that connects you to a very good restaurants.</p>
+          </div>
+         </div>
+         <div class="work">
+          <img src="Images/WhatsApp Image 2024-12-03 at 01.34.27_ffe15e91.jpg"> 
+          <div class="layer">
+            <h3>Online Shopping Website</h3>
+            <p>A web that connects you to a very good clothing brands.</p>
+          </div>
+         </div>
+      </div>
+        <a href="https://youtube.com/@basantabofard4321?si=0V6a4Vf_TCBY1QRt" class="btn">See More</a>
+    </div>
+  </div>
+  <hr><br>
+  <!--contact-->
+  <div id="contact">
+    <div class="contact">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+          <p> <i class="fa-solid fa-square-phone"></i>01276058829</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/5tpTVawS97w6Z1Mo/?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/boss_berryy/profilecard/?igsh=MWVqbWV0cmpjYXFmdQ=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/basant-abofard-999534277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://youtube.com/@basantabofard4321?si=0V6a4Vf_TCBY1QRt"><i class="fa-brands fa-youtube"></i></a>
+
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="copyright">
+    <p> &copy; All Rights Reserved 2024<br> Made with <i class="fa-solid fa-heart"></i> <br>Designed by <strong>Basant Abofard</strong>  </p>
+  </div>
+
+
+  
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+  
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+      
+    }
+  </script>
+</body>
+</html>
